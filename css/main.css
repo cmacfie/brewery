@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:lightgrey;
+}
+
+.main {
+    padding: 3em 10em 0 10em;
+    background:white;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    align-self:center;
+}
+
+
+.grid-container-3 {
+    display:grid;
+    grid-template-areas: "a b c";
+    /*grid-auto-columns: fit-content(100%);*/
+    grid-auto-columns:  3fr;
+}
+
+.blue {
+    color:blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-holder {
+    line-height:30px;
+    color: black;
+    text-decoration: none;
+    align-items:center;
+}
+
+.link-holder div {
+    display:inline-block;
+    float:left;
+}
+.link-holder img {
+    padding-left: 20px;
+    justify-content: center;
+}

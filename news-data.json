@@ -1,0 +1,30 @@
+[
+  {
+    "id": "4",
+    "imgPath": "assets/news/news-01.jpg",
+    "title": "New brewing video on youtube!",
+    "date": "June 2, 2018",
+    "link": "#"
+  },
+  {
+    "id": "3",
+    "imgPath": "assets/news/news-02.jpg",
+    "title": "Emperor, The biggest. A Dipa",
+    "date": "May 2, 2018",
+    "link": "#"
+  },
+  {
+    "id": "2",
+    "imgPath": "assets/news/news-03.jpg",
+    "title": "Out latest sours",
+    "date": "April 2, 2018",
+    "link": "#"
+  },
+  {
+    "id": "1",
+    "imgPath": "#",
+    "title": "Our first news",
+    "date": "September 2, 2017",
+    "link": "#"
+  }
+]

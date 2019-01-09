@@ -1,0 +1,22 @@
+.newsItem {
+    margin:10px;
+    font-size: 1.5em;
+}
+
+.grid-container-3 div:first-of-type {
+    margin-left:0;
+    margin-right:20px;
+}
+.grid-container-3 div:last-of-type{
+    margin-right:0;
+    margin-left:20px;
+}
+
+.newsItem img {
+    width:100%;
+}
+
+h1 {
+    font-size: 5em;
+    margin:0;
+}

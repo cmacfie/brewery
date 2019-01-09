@@ -1,0 +1,35 @@
+.headerLogo img {
+    max-width: 100%;
+    height:100%;
+}
+
+.headerLogo {
+    grid-area: a;
+}
+
+.headerContainer {
+    padding-bottom: 3em;
+}
+
+.grid-menu-container {
+    grid-area: b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-menu-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-menu-container li {
+    float: right;
+    font-weight: 700;
+}
+
+.grid-menu-container li a{
+    display: block;
+    color: black;
+    text-align: center;
+}

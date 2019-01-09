@@ -1,0 +1,43 @@
+.grid-overflow-left h1 {
+    color: #ffbcbc;
+    font-size:5em;
+    margin:0;
+}
+
+.grid-overflow-left p{
+    font-size: 3em;
+    margin:0;
+}
+
+
+.grid-overflow-left em {
+    font-style:normal;
+}
+
+body {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.grid-overflow-right img {
+    height:100%;
+    /*position:absolute;*/
+    justify-self:right;
+}
+
+.grid-container-overflow {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-overflow-left {
+    position:absolute;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-overflow-right {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    float:right;
+}
