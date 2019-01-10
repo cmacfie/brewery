@@ -16,11 +16,11 @@ of dependencies.
 
 ## Installing
 
-The project can found on 
+The project can found on `https://github.com/cmacfie/brewery`
 
 The project is built on PHP 7.1.1.
 
-I just XAMPP for this project-folder `brewery` in the xampp-folder.
-For me the path is `C:\xampp\htdocs\brewery\ ` and then power up Apache-module.
+I used XAMPP for this project. Place the project-folder `brewery` in the xampp-folder.
+For me the path is `C:\xampp\htdocs\ ` and then power up Apache-module.
 
 The website can then be viewed on `127.0.0.1/brewery`.
