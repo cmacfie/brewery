@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/introduction.css">
     <link rel="stylesheet" href="css/our-brews.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400;700" rel="stylesheet">
     <title>Viistatha Brewery</title>
+    <script type="text/javascript" src="components/functions.js"></script>
 </head>
 
 <body>
@@ -17,18 +21,18 @@
     <div class="padding-section"></div>
     <div class="grid-container-overflow side-padding introduction">
         <div class="grid-overflow-left">
-            <div class="absolute-position">
+            <div class="absolute-position introduction">
                 <h1 class="pink-text">Well Hello!</h1>
-                <p>We are <em class="link-text">Viistatha Brewery</em>.<br/>
-                    We love making <em class="link-text">open-source</em> beer.<br/>
+                <p class="sub-headline">We are <span class="link-text">Viistatha Brewery</span>.<br/>
+                    We love making <span class="link-text">open-source</span> beer.<br/>
                     Everyone should be able to make <br/>
-                    <em class="link-text">great enjoyable beer</em>
+                    <span class="link-text">great enjoyable beer</span>
                 </p>
-                <br/>
-                <a class="link-container" href="recipes.php">
-                    <div>See our recipes</div>
-                    <div class="link-image"></div>
-                </a></div>
+                <div class="link-container list-box-version">
+                <a onmouseenter="changeImageOnHover(this, event)" onmouseleave="changeImageOnHover(this, event)" class="link-container" href="recipes.php">
+                    <div class="wide-text">See our recipes</div>
+                    <img id="main-introduction-link" src="assets/buttons/button-regular.svg">
+                </a></div></div>
 
         </div>
         <div class="grid-overflow-right">

@@ -1,14 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background:lightgrey;
-    text-transform: uppercase;
+    background:lightcyan;
     font-weight: 700;
-    max-width: 1500px;
+    width: 1440px;
     margin: auto;
+    font-family: Oswald, sans-serif;
     padding: 0;
 }
 
-h1, h2, h3, a, p, ul{
+
+h1, h2, h3, h4, h5, a, p, ul{
     margin: 0;
     padding: 0;
 }
@@ -25,33 +25,72 @@ a:hover {
     color:blue;
 }
 
+h1, h2, h3, h4, h5, .sub-headline, a {
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #110e2b;
+    text-transform: uppercase;
+}
+
 h1 {
-    font-size: 5em;
+    font-size: 80px;
+    line-height: 1.05;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 66px;
+    line-height: 1.12;
 }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 42px;
+    line-height: 1.19;
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 36px;
+    line-height: 1.28;
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 16px;
+    line-height: 1.63;
 }
 
+.sub-headline {
+    font-size: 46px;
+    line-height: 1.22;
+}
+
+.list {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #110e2b;
+}
+
+.list-box-version {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+
 .side-padding {
-    padding: 0 10em 0 10em;
+    padding: 0 140px 0 140px;
     background:white;
 }
 
 .side-padding-double {
-    padding: 0 20em 0 20em;
+    padding: 0 240px 0 240px;
     background:white;
 }
 
@@ -73,6 +112,7 @@ h5 {
 
 .link-text {
     color:blue;
+    cursor: pointer;
 }
 
 .link-text:hover {
@@ -84,7 +124,7 @@ h5 {
     color: black;
     text-decoration: none;
     align-items:center;
-    font-size:20px;
+    margin-top: 29px;
 }
 
 .link-container div {
@@ -94,17 +134,6 @@ h5 {
 .link-container img {
     padding-left: 20px;
     justify-content: center;
-}
-
-.link-image {
-    background-image: url("../assets/buttons/button-regular.svg");
-    width:30px;
-    height:30px;
-    margin-left:20px;
-}
-
-.link-image:hover{
-    background-image: url("../assets/buttons/button-hover.svg");
 }
 
 .pink-text {
@@ -124,8 +153,14 @@ h5 {
 }
 
 .normal-text {
-    text-transform: capitalize;
-    font-weight:400;
+    font-family: OpenSans, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #101010;
 }
 
 .padding-section {
@@ -139,4 +174,8 @@ h5 {
 
 .right {
     grid-area:b;
+}
+
+.wide-text {
+    letter-spacing: 3px;
 }

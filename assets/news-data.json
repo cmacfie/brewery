@@ -4,27 +4,27 @@
     "imgPath": "assets/news/news-01.jpg",
     "title": "New brewing video on youtube!",
     "date": "June 2, 2018",
-    "link": "#"
+    "text": "Go watch our new brewing video on youtube! It's amazing! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   },
   {
     "id": "3",
     "imgPath": "assets/news/news-02.jpg",
     "title": "Emperor, The biggest. A Dipa",
     "date": "May 2, 2018",
-    "link": "#"
+    "text": "The new beer is here! Try it out at your local pub! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   },
   {
     "id": "2",
     "imgPath": "assets/news/news-03.jpg",
     "title": "Out latest sours",
     "date": "April 2, 2018",
-    "link": "#"
+    "text": "We have released a line of new sour beers! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
   },
   {
     "id": "1",
     "imgPath": "#",
     "title": "Our first news",
     "date": "September 2, 2017",
-    "link": "#"
+    "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
   }
 ]

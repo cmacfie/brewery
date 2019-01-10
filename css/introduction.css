@@ -4,27 +4,13 @@
 
 .grid-container-overflow {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 3fr 1fr;
 }
 
 .grid-overflow-left {
     grid-column-start: 1;
     grid-column-end: 2;
     max-width:1000px;
-}
-
-.grid-overflow-left h1 {
-    font-size:5em;
-    margin:0;
-}
-
-.grid-overflow-left p{
-    font-size: 3em;
-    margin:0;
-}
-
-.grid-overflow-left em {
-    font-style:normal;
 }
 
 .grid-overflow-right {
@@ -44,4 +30,9 @@
     height:75px;
     margin-top:calc(315px/-2 - 75px/2);
     margin-left: calc(560px/2 - 75px/2);
+    cursor: pointer;
+}
+
+.introduction h1 {
+    margin-bottom: 17px;
 }

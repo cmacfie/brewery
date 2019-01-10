@@ -1,5 +1,5 @@
 .header {
-    padding-top: 1em;
+    padding-top: 24px;
 }
 
 .header .grid-item img {
@@ -20,9 +20,11 @@
 
 .header .grid-menu-container li {
     float: right;
+
 }
 
 .header .grid-menu-container li a{
     display: block;
     text-align: center;
+    font-size: 18px;
 }

@@ -6,6 +6,7 @@
     padding:40px;
     text-align:center;
     color:white;
+    height:153px;
 }
 
 .green-box img {
@@ -14,8 +15,9 @@
     overflow:hidden;
 }
 
-.green-box h2 {
+.green-box h3 {
     padding-bottom: 10px;
+    color:white;
 }
 
 .recipe .grid-container-2 .grid-item {
@@ -27,6 +29,14 @@
     font-weight:400;
 }
 
-.recipe .grid-container-2 .grid-item li {
-    font-size: 1.5em;
+.recipe .normal-text {
+    margin-top:16px;
+}
+
+.recipe .list {
+    margin-top:14px;
+}
+
+#hops h2 {
+    margin-top:-20px;
 }

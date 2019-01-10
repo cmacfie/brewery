@@ -1,0 +1,28 @@
+{
+  "brewery": {
+    "pageTitle": "Brewery",
+    "pageText": "This is the page about our brewery",
+    "imgPath": "assets/images/feature-img.jpg"
+  },
+  "beers": {
+    "pageTitle": "Beers",
+    "pageText": "Here is all of our beers!",
+    "imgPath": "assets/images/feature-img.jpg"
+  },
+  "press": {
+    "pageTitle": "Press",
+    "pageText": "Here are our press releases!",
+    "imgPath": "assets/images/feature-img.jpg"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageText": "Here is our contact information!",
+    "imgPath": "assets/images/feature-img.jpg"
+  },
+  "events": {
+    "pageTitle": "EVents",
+    "pageText": "Here is all of our past and future events!",
+    "imgPath": "assets/images/feature-img.jpg"
+  }
+
+}
