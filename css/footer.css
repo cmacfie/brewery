@@ -1,7 +1,6 @@
 .footer {
     background: #110e2b;
     padding-top: 125px;
-    color:white;
 }
 
 .footer h4{
@@ -11,7 +10,6 @@
 .footer h4, .footer .normal-text {
     color:white;
 }
-
 
 .footer .right p {
     text-transform: initial;

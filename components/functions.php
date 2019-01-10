@@ -8,19 +8,20 @@ function getNewsItem($newsArray, $id)
     return '<div class="grid-item">
                 <img src=' . $imgPath . ' alt=' . $title . '>
                 <h5>' . $date . '</h5>
-                <a href="generic-news.php?id='.$id.'"><h3 class="link-text">' . $title . '</h3></a>
+                <a href="generic-news.php?id=' . $id . '"><h3 class="link-text">' . $title . '</h3></a>
             </div>';
 }
 
 function highlightCurrentPage($page)
 {
-    if (strtolower($page) === $activePage = basename($_SERVER['PHP_SELF'], ".php")) {
+    if (strtolower($page) === $activePage = basename($_SERVER['PHP_SELF'], ".php") or
+        isset($_GET["pageName"]) && $_GET["pageName"] === strtolower($page)) {
         return 'class="pink-text"';
     }
 }
 
-function createNewsPage($newsId){
-
+function createNewsPage($newsId)
+{
     $string = file_get_contents("../brewery/assets/news-data.json");
     $newsArray = json_decode($string, true);
     $imgPath = $newsArray[$newsId]["imgPath"];
@@ -38,7 +39,7 @@ function createNewsPage($newsId){
                         </p>    
                     </div>    
                     <br/>
-                    <p> '. $text .'</p>
+                    <p> ' . $text . '</p>
                 </div>
                 <div class="grid-overflow-right">
                     <img src="' . $imgPath . '" alt="">

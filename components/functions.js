@@ -1,5 +1,4 @@
 function changeImageOnHover(src, event){
-    console.log(src, event);
     let img = src.querySelector("img");
     if(event.type === 'mouseenter') {
         img.src = '../brewery/assets/buttons/button-hover.svg';
