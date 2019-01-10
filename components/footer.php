@@ -1,8 +1,8 @@
 <div class="grid-container-2 footer">
-    <div class="grid-item left">
+    <div id="footer-img" class="grid-item left">
         <img src="../brewery/assets/other/viistatha-big-logo.svg">
     </div>
-    <div class="grid-item right">
+    <div id="footer-info" class="grid-item right">
         <h4>Questions?</h4>
         <p class="normal-text">
             Feel free to contact us<br/>

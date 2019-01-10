@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <!--    <meta name="viewport" content="initial-scale=1">-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/introduction.css">

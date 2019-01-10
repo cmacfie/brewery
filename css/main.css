@@ -18,14 +18,14 @@ ul {
 
 a {
     text-decoration: none;
-    color:black;
+    color:#101010;
 }
 
 a:hover {
-    color:blue;
+    color:#0029e7;
 }
 
-h1, h2, h3, h4, h5, .sub-headline, a {
+h1, h2, h3, h4, h5, .sub-headline, a, .list {
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -66,12 +66,7 @@ h5 {
 
 .list {
     font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.67;
-    letter-spacing: normal;
-    color: #110e2b;
 }
 
 .list-box-version {
@@ -80,9 +75,7 @@ h5 {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.5;
-    letter-spacing: normal;
 }
-
 
 .side-padding {
     padding: 0 140px 0 140px;
@@ -100,6 +93,12 @@ h5 {
     grid-auto-columns: 1fr 1fr
 }
 
+.grid-container-12 {
+    display:grid;
+    grid-template-areas: "a a a a b b b b b b b b";
+    grid-template-columns: repeat(12, 1fr);
+}
+
 .grid-container-3 {
     display:grid;
     grid-template-areas: "a b c";
@@ -111,7 +110,7 @@ h5 {
 }
 
 .link-text {
-    color:blue;
+    color:#0029e7;
     cursor: pointer;
 }
 
@@ -121,7 +120,7 @@ h5 {
 
 .link-container {
     line-height:30px;
-    color: black;
+    color: #101010;
     text-decoration: none;
     align-items:center;
     margin-top: 29px;
@@ -178,4 +177,66 @@ h5 {
 
 .wide-text {
     letter-spacing: 3px;
+}
+
+.animated-push {
+    animation-name: push-text;
+    animation-delay:3s;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+.animated-typing {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation-name:type-animation;
+    animation-timing-function: steps(100,end);
+    animation-duration:3s;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        width:1020px;
+    }
+    .side-padding {
+        padding: 0 70px 0 70px;
+    }
+    .footer .left img, .footer .right {
+        margin-left: 70px !important;
+    }
+    .footer .left img {
+        width:75%;
+        bottom:0;
+    }
+    .green-box {
+        width:270px;
+        overflow:hidden;
+    }
+    .green-box h3 {
+        font-size: 30px;
+    }
+    .green-box li {
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-overflow-left {
+        /*display: block;*/
+        position:relative;
+        grid-column-start: 1 !important;
+        grid-column-end: 5 !important;
+    }
+}
+
+@keyframes push-text {
+    0% {margin-left: 0;}
+    20% {margin-left: 25px;}
+    22% {margin-left: 0;}
+    100% {margin-left: 0}
+}
+
+@keyframes type-animation {
+    from {width: 0;}
 }

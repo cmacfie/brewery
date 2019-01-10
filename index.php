@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/introduction.css">
@@ -22,13 +23,13 @@
     <div class="grid-container-overflow side-padding introduction">
         <div class="grid-overflow-left">
             <div class="absolute-position introduction">
-                <h1 class="pink-text">Well Hello!</h1>
+                <h1 class="pink-text animated-typing">Well Hello!</h1>
                 <p class="sub-headline">We are <span class="link-text">Viistatha Brewery</span>.<br/>
                     We love making <span class="link-text">open-source</span> beer.<br/>
                     Everyone should be able to make <br/>
                     <span class="link-text">great enjoyable beer</span>
                 </p>
-                <div class="link-container list-box-version">
+                <div class="link-container list-box-version animated-push">
                 <a onmouseenter="changeImageOnHover(this, event)" onmouseleave="changeImageOnHover(this, event)" class="link-container" href="recipes.php">
                     <div class="wide-text">See our recipes</div>
                     <img id="main-introduction-link" src="assets/buttons/button-regular.svg">

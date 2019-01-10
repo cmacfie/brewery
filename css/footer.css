@@ -3,6 +3,15 @@
     padding-top: 125px;
 }
 
+.footer .right{
+    padding-bottom:50px;
+}
+
+.footer .left {
+    bottom:0;
+    margin-left: -50px;
+}
+
 .footer h4{
     margin-bottom:8px;
 }
@@ -34,4 +43,23 @@
 
 .social-media-container {
     margin-top:14px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #footer-img {
+        display: none;
+    }
+    #footer-info {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align:center;
+    }
+    .social-media-container {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .social-media-container ul li{
+        display:inline;
+    }
 }

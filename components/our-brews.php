@@ -11,7 +11,7 @@
             we've travelled, collaborated, and learned
             a lot since we opened
         </h4>
-        <div class="link-container list-box-version wide-text">
+        <div class="link-container list-box-version wide-text  animated-push">
         <a onmouseenter="changeImageOnHover(this, event)" onmouseleave="changeImageOnHover(this, event)" href="generic-page.php?pageName=beers">
             <div class="wide-text">Our brews</div>
             <img id="main-introduction-link" src="assets/buttons/button-regular.svg">

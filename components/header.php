@@ -1,9 +1,9 @@
-<div class="grid-container-2 header side-padding">
+<div class="grid-container-12 header side-padding">
     <?php require_once('functions.php'); ?>
-    <div class="grid-item">
+    <div class="grid-item left">
         <a href="/brewery"><img src="../brewery/assets/other/viistatha-logo.svg" alt="Viistatha Brewery"></a>
     </div>
-    <div class="grid-item center-aligned">
+    <div id="header-menu" class="grid-item right center-aligned">
         <ul class="grid-menu-container">
             <li><a <?= highlightCurrentPage("Brewery") ?> href="../brewery/generic-page.php?pageName=brewery">Brewery</a></li>
             <li><a <?= highlightCurrentPage("Beers") ?> href="../brewery/generic-page.php?pageName=beers">Beers</a></li>
