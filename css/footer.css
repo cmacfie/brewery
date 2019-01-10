@@ -1,0 +1,30 @@
+.footer {
+    background: #110e2b;
+    padding-top: 125px;
+    color:white;
+}
+
+.footer .right {
+    padding-left: 20%;
+}
+
+.footer .right p {
+    text-transform: initial;
+}
+
+.footer .left img {
+    margin-left: 200px;
+}
+
+.footer ul {
+    margin-top:5px;
+}
+
+.footer ul li{
+    float:left;
+    margin-left: 10px;
+}
+
+.footer ul li:first-of-type {
+    margin-left:0;
+}

@@ -6,10 +6,16 @@ function getNewsItem($newsArray, $id)
     $date = $newsArray[$id]["date"];
     $title = $newsArray[$id]["title"];
     $link = $newsArray[$id]["link"];
-    return '<div class="newsItem">
+    return '<div class="grid-item">
                 <img src=' . $imgPath . ' alt=' . $title . '>
                 <p>' . $date . '</p>
-                <a href="' . $link . '"><h2 class="blue">' . $title . '</h2></a>
+                <a href="' . $link . '"><h3 class="link-text">' . $title . '</h3></a>
             </div>';
 }
-?>
+
+function highlightCurrentPage($page)
+{
+    if (strtolower($page) === $activePage = basename($_SERVER['PHP_SELF'], ".php")) {
+        return 'class="pink-text"';
+    }
+}

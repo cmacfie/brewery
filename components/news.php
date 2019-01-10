@@ -1,20 +1,19 @@
 <html lang="eng">
 <head>
     <title>News</title>
-    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="../brewery/css/news.css">
 </head>
 <body>
-<h1>News</h1>
-<div class="grid-container-3">
+<div class="news side-padding">
+    <div class="grid-container-3">
     <?php
-    include 'functions.php';
-    $string = file_get_contents("news-data.json");
+    $string = file_get_contents("../brewery/assets/news-data.json");
     $newsArray = json_decode($string, true);
     $iterations = sizeof($newsArray) > 3 ? 3 : sizeof($newsArray);
     for ($i = 0; $i < $iterations; $i++) {
         echo getNewsItem($newsArray, $i);
     }
     ?>
-</div>
+</div></div>
 </body>
 </html>

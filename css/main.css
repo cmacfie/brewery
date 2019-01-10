@@ -1,51 +1,142 @@
 body {
     font-family: 'Roboto', sans-serif;
     background:lightgrey;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0;
 }
 
-.main {
-    padding: 3em 10em 0 10em;
-    background:white;
+h1, h2, h3, a, p, ul{
+    margin: 0;
+    padding: 0;
 }
-
-.grid-container-2 {
-    display: grid;
-    grid-template-areas: "a b";
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-item {
-    align-self:center;
-}
-
-
-.grid-container-3 {
-    display:grid;
-    grid-template-areas: "a b c";
-    /*grid-auto-columns: fit-content(100%);*/
-    grid-auto-columns:  3fr;
-}
-
-.blue {
-    color:blue;
+ul {
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color:black;
 }
 
-.link-holder {
+a:hover {
+    color:blue;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+.side-padding {
+    padding: 0 10em 0 10em;
+    background:white;
+}
+
+.side-padding-double {
+    padding: 0 20em 0 20em;
+    background:white;
+}
+
+.grid-container-2 {
+    display:grid;
+    grid-template-areas: "a b";
+    grid-auto-columns: 1fr 1fr
+}
+
+.grid-container-3 {
+    display:grid;
+    grid-template-areas: "a b c";
+    grid-auto-columns: 3fr;
+}
+
+.center-aligned {
+    align-self:center;
+}
+
+.link-text {
+    color:blue;
+}
+
+.link-text:hover {
+    color:#ffbcbc;
+}
+
+.link-container {
     line-height:30px;
     color: black;
     text-decoration: none;
     align-items:center;
+    font-size:20px;
 }
 
-.link-holder div {
+.link-container div {
     display:inline-block;
     float:left;
 }
-.link-holder img {
+.link-container img {
     padding-left: 20px;
     justify-content: center;
+}
+
+.link-image {
+    background-image: url("../assets/buttons/button-regular.svg");
+    width:30px;
+    height:30px;
+    margin-left:20px;
+}
+
+.link-image:hover{
+    background-image: url("../assets/buttons/button-hover.svg");
+}
+
+.pink-text {
+    color: #ffbcbc;
+}
+
+.brown-text {
+    color:#cd996a;
+}
+
+.green-text {
+    color:#67b90e;
+}
+
+.absolute-position {
+    position:absolute;
+}
+
+.normal-text {
+    text-transform: capitalize;
+    font-weight:400;
+}
+
+.padding-section {
+    height: 4em;
+    background:white;
+}
+
+.left {
+    grid-area:a;
+}
+
+.right {
+    grid-area:b;
 }
