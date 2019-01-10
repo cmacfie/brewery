@@ -28,6 +28,9 @@
     height:75px;
     margin-top:calc(315px/-2 - 75px/2);
     margin-left: calc(560px/2 - 75px/2);
+}
+
+.cursor-pointer {
     cursor: pointer;
 }
 

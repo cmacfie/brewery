@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/introduction.css">
@@ -14,12 +13,14 @@
     <link rel="stylesheet" href="css/news.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400;700" rel="stylesheet">
     <title>Viistatha Brewery</title>
+    <script type="text/javascript" src="js/functions.js"></script>
 </head>
 
 <div class="main">
     <?php include 'components/header.php' ?>
 
     <div class="padding-section"></div>
+
     <div class="grid-container-overflow side-padding introduction">
         <div class="grid-overflow-left recipe">
             <div class="absolute-position">
@@ -32,10 +33,10 @@
         </div>
         <div class="grid-overflow-right video">
 
-            <img src="assets/images/video-img.jpg" alt="">
-            <img src="assets/buttons/play-icon.svg" alt=""
-                 onmouseover='this.src="assets/buttons/play-icon-hover.svg"'
-                 onmouseout='this.src="assets/buttons/play-icon.svg"'>
+            <div onmouseenter="changeImageOnHover(this, event)" onmouseleave="changeImageOnHover(this, event)">
+                <img class="cursor-pointer" src="assets/images/video-img.jpg">
+                <img class="cursor-pointer" id="play-icon" src="assets/buttons/play-icon.svg">
+            </div>
         </div>
     </div>
 
@@ -97,7 +98,9 @@
                 lobortis eu, luctus sit amet tortor. Aliquam accumsan blandit neque, ut ultricies ipsum aliquet nec.</p>
         </div>
     </div>
+
     <div class="padding-section"></div>
+
     <div class="side-padding">
         <h1>Recipes</h1>
     </div>

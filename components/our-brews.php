@@ -1,9 +1,9 @@
 <div class="grid-container-2 our-brews side-padding">
     <div class="grid-item left">
-        <img src="../brewery/assets/images/feature-img.jpg" alt="Our Brews">
+        <img src="assets/images/feature-img.jpg" alt="Our Brews">
     </div>
     <div class="grid-item right">
-        <h1 class="link-text">Our brews</h1>
+        <a href="generic-page.php?pageName=beers"><h1 class="link-text">Our brews</h1></a>
         <h4>
             When it comes to our beers, these have
             evolved (and will continue to evolve)

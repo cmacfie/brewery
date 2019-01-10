@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400;700" rel="stylesheet">
     <title>Viistatha Brewery</title>
-    <script type="text/javascript" src="components/functions.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
 </head>
 
 <body>

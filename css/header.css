@@ -63,10 +63,27 @@
     .header .left {
         grid-column-start: 1;
         grid-column-end: 13;
+        background: white;
+        z-index: 1;
     }
-    .header .right {
+    #header-menu {
         grid-column-start: 1;
         grid-column-end: 13;
+        z-index: 0;
+        animation-name: animation-slide-menu;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+
+    .main {
+        overflow:hidden;
+    }
+
+    @keyframes animation-slide-menu {
+        0% {display:none;
+            margin-right: -600px;}
+        1% {display:block}
+        100% {margin-top: 0;}
     }
 
 }
