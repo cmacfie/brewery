@@ -1,5 +1,6 @@
-function changeImageOnHover(src, event) {
-    let childImages = src.querySelectorAll("img");
+//
+function changeImageOnHover(parentDiv, event) {
+    let childImages = parentDiv.querySelectorAll("img");
     let lastImage = childImages[childImages.length - 1];
     if (lastImage.id === 'play-icon') {
         if (event.type === 'mouseenter') {

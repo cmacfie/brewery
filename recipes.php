@@ -34,8 +34,8 @@
         <div class="grid-overflow-right video">
 
             <div onmouseenter="changeImageOnHover(this, event)" onmouseleave="changeImageOnHover(this, event)">
-                <img class="cursor-pointer" src="assets/images/video-img.jpg">
-                <img class="cursor-pointer" id="play-icon" src="assets/buttons/play-icon.svg">
+                <img class="cursor-pointer" src="assets/images/video-img.jpg" alt="video-img">
+                <img class="cursor-pointer" id="play-icon" src="assets/buttons/play-icon.svg" alt="video-img-icon">
             </div>
         </div>
     </div>

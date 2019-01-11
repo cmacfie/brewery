@@ -36,6 +36,8 @@
     font-size: 18px;
 }
 
+/* Small screens */
+
 @media only screen and (max-width: 1000px) {
     .header {
         display:grid;
@@ -78,6 +80,8 @@
     .main {
         overflow:hidden;
     }
+
+    /* Animations */
 
     @keyframes animation-slide-menu {
         0% {display:none;

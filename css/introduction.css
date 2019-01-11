@@ -30,9 +30,6 @@
     margin-left: calc(560px/2 - 75px/2);
 }
 
-.cursor-pointer {
-    cursor: pointer;
-}
 
 .introduction h1 {
     margin-bottom: 17px;
