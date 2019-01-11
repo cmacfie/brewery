@@ -14,6 +14,8 @@ This is however by design.
 I also chose to use no external libraries or frameworks, to make sure nothing fails because
 of dependencies.
 
+The function files uses camelCase, which is what I usually use. The CSS-files uses dashes instead, since this is a normal standard for CSS-files instead of camelCase.
+
 ## Installing
 
 The project can found on `https://github.com/cmacfie/brewery`
